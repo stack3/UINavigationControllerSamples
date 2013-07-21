@@ -22,6 +22,10 @@
 		B7189BAE179B6AC900DEC3AF /* STSample2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7189BAC179B6AC900DEC3AF /* STSample2ViewController.xib */; };
 		B7189BB2179B6ADC00DEC3AF /* STSample1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7189BB0179B6ADC00DEC3AF /* STSample1ViewController.m */; };
 		B7189BB3179B6ADC00DEC3AF /* STSample1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7189BB1179B6ADC00DEC3AF /* STSample1ViewController.xib */; };
+		B7189BB7179C978600DEC3AF /* STShowToolbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7189BB5179C978600DEC3AF /* STShowToolbarViewController.m */; };
+		B7189BB8179C978600DEC3AF /* STShowToolbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7189BB6179C978600DEC3AF /* STShowToolbarViewController.xib */; };
+		B7189BBC179C9EA000DEC3AF /* STHideToolbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7189BBA179C9EA000DEC3AF /* STHideToolbarViewController.m */; };
+		B7189BBD179C9EA000DEC3AF /* STHideToolbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7189BBB179C9EA000DEC3AF /* STHideToolbarViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +51,12 @@
 		B7189BAF179B6ADC00DEC3AF /* STSample1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSample1ViewController.h; sourceTree = "<group>"; };
 		B7189BB0179B6ADC00DEC3AF /* STSample1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSample1ViewController.m; sourceTree = "<group>"; };
 		B7189BB1179B6ADC00DEC3AF /* STSample1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STSample1ViewController.xib; sourceTree = "<group>"; };
+		B7189BB4179C978600DEC3AF /* STShowToolbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowToolbarViewController.h; sourceTree = "<group>"; };
+		B7189BB5179C978600DEC3AF /* STShowToolbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowToolbarViewController.m; sourceTree = "<group>"; };
+		B7189BB6179C978600DEC3AF /* STShowToolbarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STShowToolbarViewController.xib; sourceTree = "<group>"; };
+		B7189BB9179C9EA000DEC3AF /* STHideToolbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHideToolbarViewController.h; sourceTree = "<group>"; };
+		B7189BBA179C9EA000DEC3AF /* STHideToolbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHideToolbarViewController.m; sourceTree = "<group>"; };
+		B7189BBB179C9EA000DEC3AF /* STHideToolbarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STHideToolbarViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +114,12 @@
 				B7189BAA179B6AC900DEC3AF /* STSample2ViewController.h */,
 				B7189BAB179B6AC900DEC3AF /* STSample2ViewController.m */,
 				B7189BAC179B6AC900DEC3AF /* STSample2ViewController.xib */,
+				B7189BB4179C978600DEC3AF /* STShowToolbarViewController.h */,
+				B7189BB5179C978600DEC3AF /* STShowToolbarViewController.m */,
+				B7189BB6179C978600DEC3AF /* STShowToolbarViewController.xib */,
+				B7189BB9179C9EA000DEC3AF /* STHideToolbarViewController.h */,
+				B7189BBA179C9EA000DEC3AF /* STHideToolbarViewController.m */,
+				B7189BBB179C9EA000DEC3AF /* STHideToolbarViewController.xib */,
 				B7189B7A179B587B00DEC3AF /* Supporting Files */,
 			);
 			path = UINavigationControllerSamples;
@@ -182,6 +198,8 @@
 				B7189B9F179B5BBD00DEC3AF /* STViewController.xib in Resources */,
 				B7189BAE179B6AC900DEC3AF /* STSample2ViewController.xib in Resources */,
 				B7189BB3179B6ADC00DEC3AF /* STSample1ViewController.xib in Resources */,
+				B7189BB8179C978600DEC3AF /* STShowToolbarViewController.xib in Resources */,
+				B7189BBD179C9EA000DEC3AF /* STHideToolbarViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +215,8 @@
 				B7189B8D179B587B00DEC3AF /* STViewController.m in Sources */,
 				B7189BAD179B6AC900DEC3AF /* STSample2ViewController.m in Sources */,
 				B7189BB2179B6ADC00DEC3AF /* STSample1ViewController.m in Sources */,
+				B7189BB7179C978600DEC3AF /* STShowToolbarViewController.m in Sources */,
+				B7189BBC179C9EA000DEC3AF /* STHideToolbarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

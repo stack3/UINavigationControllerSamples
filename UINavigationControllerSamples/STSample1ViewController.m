@@ -31,6 +31,26 @@
     [_popButton addTarget:self action:@selector(didTapPopButton) forControlEvents:UIControlEventTouchUpInside];
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    NSLog(@"STSample1ViewController#viewWillAppear");
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    NSLog(@"STSample1ViewController#viewDidAppear");
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    NSLog(@"STSample1ViewController#viewWillDisappear");
+}
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+    NSLog(@"STSample1ViewController#viewDidDisappear");
+}
+
 - (void)didTapPushButton
 {
     STSample2ViewController *con = [[STSample2ViewController alloc] init];

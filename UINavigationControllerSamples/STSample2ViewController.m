@@ -30,6 +30,26 @@
     [_popToTopButton addTarget:self action:@selector(didTapPopToTopButton) forControlEvents:UIControlEventTouchUpInside];
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    NSLog(@"STSample2ViewController#viewWillAppear");
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    NSLog(@"STSample2ViewController#viewDidAppear");
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    NSLog(@"STSample2ViewController#viewWillDisappear");
+}
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+    NSLog(@"STSample2ViewController#viewDidDisappear");
+}
+
 - (void)didTapPopButton
 {
     [self.navigationController popViewControllerAnimated:YES];

@@ -24,12 +24,26 @@
 {
     [super viewDidLoad];
 
-
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCompose
                                                                                            target:self
                                                                                            action:@selector(didTapMessageButton)];
     
     
+    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
+                                                                               target:self
+                                                                               action:@selector(didTapAddButton)];
+    UIBarButtonItem *deleteButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemTrash
+                                                                                  target:self
+                                                                                  action:@selector(didTapDeleteButton)];
+    UIBarButtonItem *flexibleItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace
+                                                                                  target:nil
+                                                                                  action:nil];
+    UIBarButtonItem *textItem = [[UIBarButtonItem alloc] initWithTitle:@"Text"
+                                                                 style:UIBarButtonItemStylePlain
+                                                                target:nil
+                                                                action:nil];
+    
+    self.toolbarItems = @[addButton, flexibleItem, textItem, flexibleItem, deleteButton];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -40,6 +54,16 @@
 - (void)viewWillDisappear:(BOOL)animated
 {
     [self.navigationController setToolbarHidden:YES animated:YES];
+}
+
+- (void)didTapAddButton
+{
+    NSLog(@"didTapAddButton");
+}
+
+- (void)didTapDeleteButton
+{
+    NSLog(@"didTapDeleteButton");
 }
 
 - (void)didTapMessageButton

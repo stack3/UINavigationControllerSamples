@@ -26,6 +26,10 @@
 		B7189BB8179C978600DEC3AF /* STShowToolbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7189BB6179C978600DEC3AF /* STShowToolbarViewController.xib */; };
 		B7189BBC179C9EA000DEC3AF /* STHideToolbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7189BBA179C9EA000DEC3AF /* STHideToolbarViewController.m */; };
 		B7189BBD179C9EA000DEC3AF /* STHideToolbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7189BBB179C9EA000DEC3AF /* STHideToolbarViewController.xib */; };
+		B7C4B1E0179CA64D00AF0217 /* STBarButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C4B1DE179CA64D00AF0217 /* STBarButtonViewController.m */; };
+		B7C4B1E1179CA64D00AF0217 /* STBarButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C4B1DF179CA64D00AF0217 /* STBarButtonViewController.xib */; };
+		B7C4B1E5179CAB5A00AF0217 /* STMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C4B1E3179CAB5A00AF0217 /* STMessageViewController.m */; };
+		B7C4B1E6179CAB5A00AF0217 /* STMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C4B1E4179CAB5A00AF0217 /* STMessageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +61,12 @@
 		B7189BB9179C9EA000DEC3AF /* STHideToolbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHideToolbarViewController.h; sourceTree = "<group>"; };
 		B7189BBA179C9EA000DEC3AF /* STHideToolbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHideToolbarViewController.m; sourceTree = "<group>"; };
 		B7189BBB179C9EA000DEC3AF /* STHideToolbarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STHideToolbarViewController.xib; sourceTree = "<group>"; };
+		B7C4B1DD179CA64D00AF0217 /* STBarButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBarButtonViewController.h; sourceTree = "<group>"; };
+		B7C4B1DE179CA64D00AF0217 /* STBarButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBarButtonViewController.m; sourceTree = "<group>"; };
+		B7C4B1DF179CA64D00AF0217 /* STBarButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STBarButtonViewController.xib; sourceTree = "<group>"; };
+		B7C4B1E2179CAB5A00AF0217 /* STMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMessageViewController.h; sourceTree = "<group>"; };
+		B7C4B1E3179CAB5A00AF0217 /* STMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMessageViewController.m; sourceTree = "<group>"; };
+		B7C4B1E4179CAB5A00AF0217 /* STMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMessageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +130,12 @@
 				B7189BB9179C9EA000DEC3AF /* STHideToolbarViewController.h */,
 				B7189BBA179C9EA000DEC3AF /* STHideToolbarViewController.m */,
 				B7189BBB179C9EA000DEC3AF /* STHideToolbarViewController.xib */,
+				B7C4B1DD179CA64D00AF0217 /* STBarButtonViewController.h */,
+				B7C4B1DE179CA64D00AF0217 /* STBarButtonViewController.m */,
+				B7C4B1DF179CA64D00AF0217 /* STBarButtonViewController.xib */,
+				B7C4B1E2179CAB5A00AF0217 /* STMessageViewController.h */,
+				B7C4B1E3179CAB5A00AF0217 /* STMessageViewController.m */,
+				B7C4B1E4179CAB5A00AF0217 /* STMessageViewController.xib */,
 				B7189B7A179B587B00DEC3AF /* Supporting Files */,
 			);
 			path = UINavigationControllerSamples;
@@ -200,6 +216,8 @@
 				B7189BB3179B6ADC00DEC3AF /* STSample1ViewController.xib in Resources */,
 				B7189BB8179C978600DEC3AF /* STShowToolbarViewController.xib in Resources */,
 				B7189BBD179C9EA000DEC3AF /* STHideToolbarViewController.xib in Resources */,
+				B7C4B1E1179CA64D00AF0217 /* STBarButtonViewController.xib in Resources */,
+				B7C4B1E6179CAB5A00AF0217 /* STMessageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +235,8 @@
 				B7189BB2179B6ADC00DEC3AF /* STSample1ViewController.m in Sources */,
 				B7189BB7179C978600DEC3AF /* STShowToolbarViewController.m in Sources */,
 				B7189BBC179C9EA000DEC3AF /* STHideToolbarViewController.m in Sources */,
+				B7C4B1E0179CA64D00AF0217 /* STBarButtonViewController.m in Sources */,
+				B7C4B1E5179CAB5A00AF0217 /* STMessageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +353,7 @@
 				B7189B98179B587B00DEC3AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

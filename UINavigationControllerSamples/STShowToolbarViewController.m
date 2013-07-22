@@ -42,7 +42,7 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    [self.navigationController setToolbarHidden:NO];
+    [self.navigationController setToolbarHidden:NO animated:YES];
 }
 
 - (void)didTapNextButton

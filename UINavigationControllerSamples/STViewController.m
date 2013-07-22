@@ -9,13 +9,15 @@
 #import "STViewController.h"
 #import "STSample1ViewController.h"
 #import "STShowToolbarViewController.h"
+#import "STBarButtonViewController.h"
 
 #define _STCellId @"CellId"
 
 
 typedef enum {
     _STMenuItemPushAndPop,
-    _STMenuItemToolbar
+    _STMenuItemToolbar,
+    _STMenuItemBarButtonItem
 } _STMenuItems;
 
 @implementation STViewController {
@@ -33,6 +35,7 @@ typedef enum {
         
         [_items addObject:@"Push & Pop"];
         [_items addObject:@"Toolbar"];
+        [_items addObject:@"BarButtonItem"];
     }
     return self;
 }
@@ -73,6 +76,9 @@ typedef enum {
         [self.navigationController pushViewController:con animated:YES];
     } else if (indexPath.row == _STMenuItemToolbar) {
         STShowToolbarViewController *con = [[STShowToolbarViewController alloc] init];
+        [self.navigationController pushViewController:con animated:YES];
+    } else if (indexPath.row == _STMenuItemBarButtonItem) {
+        STBarButtonViewController *con = [[STBarButtonViewController alloc] init];
         [self.navigationController pushViewController:con animated:YES];
     }
 }

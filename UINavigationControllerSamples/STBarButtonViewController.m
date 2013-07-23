@@ -32,18 +32,21 @@
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
                                                                                target:self
                                                                                action:@selector(didTapAddButton)];
+    
     UIBarButtonItem *deleteButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemTrash
                                                                                   target:self
                                                                                   action:@selector(didTapDeleteButton)];
+    
+    UIBarButtonItem *textButton = [[UIBarButtonItem alloc] initWithTitle:@"Text"
+                                                                         style:UIBarButtonItemStylePlain
+                                                                        target:self
+                                                                        action:@selector(didTapTextButton)];
+
     UIBarButtonItem *flexibleItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace
                                                                                   target:nil
                                                                                   action:nil];
-    UIBarButtonItem *textItem = [[UIBarButtonItem alloc] initWithTitle:@"Text"
-                                                                 style:UIBarButtonItemStylePlain
-                                                                target:nil
-                                                                action:nil];
     
-    self.toolbarItems = @[addButton, flexibleItem, textItem, flexibleItem, deleteButton];
+    self.toolbarItems = @[addButton, flexibleItem, textButton, flexibleItem, deleteButton];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -64,6 +67,11 @@
 - (void)didTapDeleteButton
 {
     NSLog(@"didTapDeleteButton");
+}
+
+- (void)didTapTextButton
+{
+    NSLog(@"didTapTextButton");
 }
 
 - (void)didTapMessageButton
